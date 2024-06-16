@@ -1,1 +1,1 @@
-echo1 "Helloldare you !!"
+echo "Helloldare you !!"
