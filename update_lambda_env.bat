@@ -15,7 +15,7 @@ if %ERRORLEVEL% neq 0 (
 REM Update environment variables for the Lambda function
 aws lambda update-function-configuration ^
     --function-name %FUNCTION_NAME% ^
-    --environment "Variables={MAINTENANCE=false,Env=dev}" ^
+    --environment "Variables={MAINTENANCE=false}" ^
     --region %REGION%
 
 REM Check if the update was successful
